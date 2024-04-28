@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing:border-box;
+}
+body{
+    background-color: skyblue
+}
+.card{
+    width:90%;
+    max-width:470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color:#fff;
+
+    margin: 100px auto 0 ;
+    border-radius: 20px;
+    padding:40px 35px;
+    text-align:center;
+
+
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border:0;
+    background:3ebfffc;
+    color:#555;
+    padding;10px 25px;
+    height:60px;
+    border-radius:30px;
+    flex:1;
+    margin-right:16px;
+    font-size:18px;
+}
+.search button{
+    border:10;
+    outline:0;
+    background:#ebfffc;
+    border-radius:75%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width:16px;
+
+}
+.weather-icon{
+    width:170px;
+    margin-op: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight:500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight:500;
+    margin-top:-10px;
+}
+.details{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 20px;
+    margin-top:50px;
+}
+.col{
+    display:flex;
+    align-items: center;
+    text-align:left;
+}
+.col img{
+    width:40px;
+    margin-right:10px;
+}
+.humidity,,wind{
+    font-size:28px;
+    margin-top: -6px;
+}
+.city-input {
+    width: 80%; /* Adjust the width as needed */
+    padding: 10px; /* Add padding for better spacing */
+    margin: 0 auto; /* Center the input horizontally */
+    display: block; /* Ensure the input takes up the full width */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+.weather{
+    display:none;
+}
+.error{
+    text-align:left;
+    margin-left:10px;
+    font-size:14px;
+    margin-top:10px;
+    display:none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card {
+    position: fixed;
+    top: 40%; /* Adjusted position */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.search input {
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    width: 180px;
+    margin-right: 5px;
+}
+
+.search button {
+    padding: 8px 12px;
+    border-radius: 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 18px;
+    height: 18px;
+}
+
+.error,
+.weather {
+    position: relative;
+    z-index: 2;
+}
+
+.time {
+    margin-top: 10px; /* Adjusted margin */
+    font-size: 18px; /* Adjusted font size */
+}
+
+/* Rest of your CSS */
